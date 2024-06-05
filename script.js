@@ -1,8 +1,11 @@
+var myKey = config.key;
+var myHost = config.host;
+
 const options = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': 'api-key',
-    'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com'
+    'X-RapidAPI-Key': myKey,
+    'X-RapidAPI-Host': myHost
   }
 };
 // let dataFetched, nameFirst, nameLast, totalGames, points, assists, rebounds, position, fgp, blocks, turnovers, steals, plusMinus, playerTeam, logoLink;
